@@ -1,0 +1,49 @@
+.modalContainer {
+	position: fixed;
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 999;
+}
+
+.modal {
+	width: 90%;
+	max-width: 500px;
+	border: 1px solid rgb(81, 168, 198);
+	padding: 20px;
+	background-color: rgb(23, 31, 41);
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	box-sizing: border-box;
+	border-radius: 7px;
+	color: white;
+}
+
+.modal__head {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-left: 0px;
+}
+
+.modal__close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 24px;
+	font-weight: 500;
+	cursor: pointer;
+	color: white;
+}
+
+.modal__close:hover {
+	color: 'tomato';
+}

@@ -1,0 +1,54 @@
+.addPost {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 10px;
+	z-index: 100;
+}
+
+.addPost input {
+	height: 40px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid rgb(81, 168, 198);
+	border-radius: 7px;
+	padding-left: 10px;
+}
+
+.addPost input:focus {
+	outline: none;
+}
+
+.addPost button {
+	height: 40px;
+	border: none;
+	color: white;
+	background-color: rgb(81, 168, 198);
+	color: rgb(23, 31, 41);
+	font-weight: bold;
+	border-radius: 7px;
+}
+
+.addPost textarea {
+	height: 150px;
+	border: 1px solid rgb(81, 168, 198);
+	border-radius: 7px;
+	padding: 10px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.addPost textarea:focus {
+	outline: none;
+}
+
+.addPost button:hover {
+	background-color: rgb(88, 184, 216);
+}
+
+.addPost button:active {
+	background-color: rgb(68, 139, 163);
+}

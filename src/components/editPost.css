@@ -1,0 +1,56 @@
+.editPost {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 10px;
+	z-index: 100;
+}
+
+.editPost input {
+	height: 40px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	border-radius: 7px;
+	/* padding-left: 5px; */
+	background-color: rgb(23, 31, 41);
+	color: white;
+}
+
+.editPost input:focus {
+	outline: none;
+}
+
+.editPost button {
+	height: 40px;
+	border: none;
+	color: white;
+	background-color: rgb(81, 168, 198);
+	color: rgb(23, 31, 41);
+	font-weight: bold;
+	border-radius: 7px;
+}
+
+.editPost textarea {
+	height: 150px;
+	border: 1px solid rgb(81, 168, 198);
+	border-radius: 7px;
+	padding: 10px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.editPost textarea:focus {
+	outline: none;
+}
+
+.editPost button:hover {
+	background-color: rgb(88, 184, 216);
+}
+
+.editPost button:active {
+	background-color: rgb(68, 139, 163);
+}
