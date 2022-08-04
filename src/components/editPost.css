@@ -18,6 +18,7 @@
 	/* padding-left: 5px; */
 	background-color: rgb(23, 31, 41);
 	color: white;
+	cursor: default;
 }
 
 .editPost input:focus {

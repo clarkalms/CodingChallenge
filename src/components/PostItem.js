@@ -1,21 +1,12 @@
 import Modal from './Modal';
 import './postItem.css';
 
-function PostItem({
-	onClose,
-	open,
-	name,
-	addressStreet,
-	addressCity,
-	addressState,
-	addressZip,
-}) {
+function PostItem({ onClose, open, name, postText }) {
 	return (
-		<Modal modalLable="Ship to: " onClose={onClose} open={open}>
+		<Modal modalLable="" onClose={onClose} open={open}>
 			<div className="postItem">
 				<h2>{name}</h2>
-				<p>{addressStreet}</p>
-				<p>{`${addressCity}, ${addressState} ${addressZip}`}</p>
+				<p>{postText}</p>
 			</div>
 		</Modal>
 	);

@@ -22,6 +22,7 @@
 .post__header {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 .post__username {
@@ -64,4 +65,30 @@
 }
 .trash__icon {
 	margin-left: 15px;
+}
+
+.post__header__left {
+	display: flex;
+	flex-direction: row;
+}
+.post__header__right {
+	display: flex;
+	flex-direction: column;
+	color: rgb(81, 168, 198);
+}
+
+.post__header__right > span {
+	font-size: 10px;
+	font-weight: bold;
+	cursor: default;
+}
+
+.accordion__open {
+	display: block;
+	transition: all 3s ease;
+}
+
+.accordion__close {
+	display: none;
+	transition: all 3s ease;
 }

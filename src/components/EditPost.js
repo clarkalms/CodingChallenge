@@ -25,10 +25,10 @@ function EditPost({ open, onClose, name, toEditPostText, id }) {
 	return (
 		<Modal modalLable="EDIT POST" onClose={onClose} open={open}>
 			<form onSubmit={handleUpdate} className="editPost">
-				<input type="text" name="title" value={name} />
+				<input type="text" name="title" defaultValue={name} readOnly={true} />
 				<textarea
 					onChange={(e) => setPostText(e.target.value)}
-					value={postText}
+					defaultValue={postText}
 				></textarea>
 				<button type="submit">EDIT</button>
 			</form>
